@@ -1,0 +1,13 @@
+
+:root {
+    --primary-color:#E82A2A;
+    --gray-color:#2C2D2F;
+    --white-color:#E1E1E1;
+    --blue-color:#007BFF;
+    --green-color:#44BBFF;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 70px;
+    margin: auto;
+}

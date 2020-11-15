@@ -1,0 +1,359 @@
+
+/* Ipad pro */
+@media(min-width:1024px) and (max-width:1366px){
+    /* .navbar {
+        background: var(--gray-color);
+        padding-bottom: 70px !important;
+    } */
+    .about {
+        margin-top: -144px;
+    }
+    .navbar__menu li a {
+        
+        margin: 134px 0 !important;
+        
+    }
+  
+    .max-width {
+        padding: 0 50px; 
+    }
+    .navbar__logo a {
+        margin-left: 0;
+    }
+    .navbar__menu {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        background: var(--gray-color);
+        text-align: center;
+        padding-top: 70px;
+        transition: all 0.3s ease;
+    }
+    .navbar .navbar__menu.active {
+        left: 0;
+    }
+    .navbar .navbar__menu li {
+        display: block;
+    }
+    .navbar__menu li a {
+        display: inline-block;
+        margin: 90px 0;
+        font-size: 25px;
+    }
+
+    .navbar.sticky {
+        position: fixed;
+        padding: 20px;
+    }
+    .navbar .navbar__menu-btn {
+        font-size: 30px;
+        display: block;
+        z-index: 999;
+    }
+    .navbar .navbar__menu-btn i.active:before {
+        content: "\f00d"; 
+    }
+    .home .home-contents {
+        padding-left: 15px;
+    }
+    .home .home-contents .text-1 {
+        font-size: 20px;
+    }
+    .home .home-contents .text-2 {
+        font-size: 40px;  
+    }
+    .home .home-contents .text-3 {
+        font-size: 20px;
+    }
+
+    .about .about__colunm-left {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto 60px;
+    }
+    .about .about__colunm-right {
+        flex: 100%;
+    }
+    .about .about__download-link {
+        margin-left: 40%;
+    }
+    /* education */
+    .educational {
+        margin-top: -62px;
+    }
+    .educational .educational__title {
+        margin-bottom: 30px;
+    }
+    .educational .educational__column-left {
+        flex: 100%;
+    }
+    .educational .educational__column-right {
+        flex: 100%;
+    }
+    .educational .educational__column-middle {
+        display: none;
+    }
+
+    .educational .educational__hight-shool, .educational__vocational-school, .educational__university, .educational__japanness-school {
+        overflow: hidden;
+        margin: 20px 0;
+    }
+    
+    .educational .educational__qualification-1, .educational__qualification-2,  .educational__qualification-3{
+        overflow: hidden;
+    }
+    .educational .educational__qualification-1, .educational__japanness-school {
+        margin-top: 75px;
+    }
+    .educational .educational__vocational-school {
+        display: block;
+        margin-top: 75px;
+    }
+    .educational .educational__university {
+        margin-top: -47px;
+    }
+    .educational .educational__qualification-3 {
+        display: block;
+        margin-top: 75px;
+    }
+  
+    .about .about__image {
+        width: 600px;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    /* skill conbtents */
+    .skills__fortfolio-navbar-list {
+        margin-left: 214px !important;
+    }
+
+    .skills__contents-fortfolio-left {
+        width: 33.33%;
+    }
+
+    
+    .skills__contents-fortfolio-middle {
+        width: 33.33%;
+    }
+    .skills__contents-fortfolio-right {
+        width: 33.33%;
+    }
+
+    .skills__contents-fortfolio .small_image {
+        width: 260px !important;
+        height: 270px !important;
+        padding-bottom: 40px !important;
+    }
+    /* contact */
+    .contact .column__left {
+        flex: 100%;
+    }
+
+    /* footer */
+
+    .footer p {
+        position: absolute;
+        z-index: 2;
+        padding-left: 23%;
+        font-weight: 100;
+    }
+    .footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 152px;
+        background-color: var(--gray-color);
+        opacity: 80%;
+    }
+  
+}
+
+
+/*  Tablet Ipad */
+@media (min-width:740px) and (max-width : 1023px){ 
+    .max-width {
+        padding: 0 50px; 
+    }
+    .navbar__logo a {
+        margin-left: 0;
+    }
+    .navbar__menu {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        background: var(--gray-color);
+        text-align: center;
+        padding-top: 70px;
+        transition: all 0.3s ease;
+    }
+    .navbar .navbar__menu.active {
+        left: 0;
+    }
+    .navbar .navbar__menu li {
+        display: block;
+    }
+    .navbar__menu li a {
+        display: inline-block;
+        margin: 90px 0;
+        font-size: 25px;
+    }
+
+    .navbar.sticky {
+        position: fixed;
+        padding: 20px;
+    }
+    .navbar .navbar__menu-btn {
+        font-size: 30px;
+        display: block;
+        z-index: 999;
+    }
+    .navbar .navbar__menu-btn i.active:before {
+        content: "\f00d"; 
+    }
+    .home .home-contents {
+        padding-left: 15px;
+    }
+    .home .home-contents .text-1 {
+        font-size: 20px;
+    }
+    .home .home-contents .text-2 {
+        font-size: 40px;  
+    }
+    .home .home-contents .text-3 {
+        font-size: 20px;
+    }
+
+    .about .about__colunm-left {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto 60px;
+    }
+    .about .about__colunm-right {
+        flex: 100%;
+    }
+    .about .about__download-link {
+        margin-left: 40%;
+    }
+    /* education */
+    .educational {
+        margin-top: -62px;
+    }
+    .educational .educational__title {
+        margin-bottom: 30px;
+    }
+    .educational .educational__column-left {
+        flex: 100%;
+    }
+    .educational .educational__column-right {
+        flex: 100%;
+    }
+    .educational .educational__column-middle {
+        display: none;
+    }
+
+    .educational .educational__hight-shool, .educational__vocational-school, .educational__university, .educational__japanness-school {
+        overflow: hidden;
+        margin: 20px 0;
+    }
+    
+    .educational .educational__qualification-1, .educational__qualification-2,  .educational__qualification-3{
+        overflow: hidden;
+    }
+    .educational .educational__qualification-1, .educational__japanness-school {
+        margin-top: 75px;
+    }
+    .educational .educational__vocational-school {
+        display: block;
+        margin-top: 75px;
+    }
+    .educational .educational__university {
+        margin-top: -47px;
+    }
+    .educational .educational__qualification-3 {
+        display: block;
+        margin-top: 75px;
+    }
+  
+    .about .about__image {
+        width: 600px;
+        height: 550px;
+        object-fit: cover;
+    }
+
+    /* skill conbtents */
+   
+    .skills__fortfolio-navbar-list {
+        margin-left: 128px !important;
+    }
+    .skills__contents-fortfolio-left {
+        width: 45%;
+    }
+
+    
+    .skills__contents-fortfolio-middle {
+        display: none;
+    }
+    .skills__contents-fortfolio-right {
+        width: 45%;
+    }
+
+    .skills__contents-fortfolio .small_image {
+        width: 260px !important;
+        height: 270px !important;
+        padding-bottom: 30px !important;
+    }
+    /* contact */
+    .contact .column__left {
+        flex: 100%;
+    }
+
+    /* footer */
+
+    .footer p {
+        position: absolute;
+        z-index: 2;
+        padding-left: 23%;
+        font-weight: 100;
+    }
+    .footer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 152px;
+        background-color: var(--gray-color);
+        opacity: 80%;
+    }
+  
+    
+}
+/* Mobile */
+@media (max-width : 739px){
+   
+    .max-width {
+        padding: 0 30px; 
+    }
+    .navbar .max-width {
+        padding-left: 0;
+    }
+    .navbar__logo a {
+        font-size: 30px !important;
+    }
+   
+    .home-contents {
+        padding-left: 0 !important;
+    }
+
+}
